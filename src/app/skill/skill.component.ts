@@ -14,16 +14,7 @@ export class SkillComponent implements OnInit {
   @Input() skillLogo: string;
   @Input() skillSite: string;
 
-  skills: Skill[] = [{
-    name: 'JavaScript',
-    logo: 'Js',
-    site: 'www.js.com',
-    }, {
-    name: 'Web semantique',
-    logo: 'Html',
-    site: 'www.html.com',
-    }
-  ];
+
   constructor() { }
 
   ngOnInit() {
